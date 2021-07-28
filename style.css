@@ -1,0 +1,169 @@
+body{
+    position: relative;
+  width: 1366px;
+  height: 768px;
+  
+  background: #171717;
+    
+  }
+  h1{position: absolute;
+  width: 1062px;
+  height: 154px;
+  left: calc(50% - 1062px/2);
+  top: 78px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  
+  color: #DA0037;
+  }
+  
+  #amount{position: absolute;
+  width: 274px;
+  height: 116px;
+  left: calc(50% - 274px/2 - 252px);
+  top: 210px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  color: #FFFFFF;
+  }
+  #principal{position: absolute;
+  width: 429px;
+  height: 58px;
+  left: calc(50% - 429px/2 + 110.5px);
+  top: 230px;
+  
+  background: #C4C4C4;
+  border-radius: 7px;}
+  
+  #rates{position: absolute;
+  width: 274px;
+  height: 116px;
+  left: calc(50% - 274px/2 - 270px);
+  top: 294px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  
+  color: #FFFFFF;
+  }
+  #rate{
+  position: absolute;
+  width: 250px;
+  height: 58px;
+  left: calc(50% - 429px/2 + 110.5px);
+  top: 330px;
+  
+  background: #C4C4C4;
+  border-radius: 7px;
+  }
+  #year{position: absolute;
+  width: 274px;
+  height: 163px;
+  left: calc(50% - 274px/2 - 264px);
+  top: 397px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  
+  color: #FFFFFF;
+  }
+  #years{position: absolute;
+  width: 429px;
+  height: 58px;
+  left: calc(50% - 429px/2 + 110.5px);
+  top: 420px;
+  
+  background: #C4C4C4;
+  border-radius: 7px;
+  }
+  
+  input[type=submit]{position: absolute;
+  width: 263px;
+  height: 61px;
+  left: calc(50% - 26px/2 + 27.5px);
+  top: 5px;
+  
+  background: #C4C4C4;
+  border-radius: 30px;
+    font-size:20px;
+    font-weight:bold;
+  }
+  
+  #result{
+    color:white;
+    position: absolute;
+  
+  left: calc(50% - 263px/2 + 27.5px);
+  top: 550px;
+  
+  
+  
+    font-size:40px;
+    font-weight:bold;
+  }
+  
+  #interest{position: absolute;
+  width: 228px;
+  height: 101px;
+  left: calc(50% - 228px/2 - 264px);
+  top: 520px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  
+  color: #FFFFFF;}
+  
+  #rr{color: white;}
+
+  #slider_value{
+    position: absolute;
+    
+    left: calc(50% - 10px/2 + 170.5px);
+    top: 345px;
+    font-size:30px;
+    font-weight:bold;
+ 
+  }
+
+  #copy{position: absolute;
+    width: 579px;
+    height: 125px;
+    left: -29px;
+    top: 688px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.09em;
+    
+    color: #FFFFFF;}

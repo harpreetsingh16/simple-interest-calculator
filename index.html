@@ -1,0 +1,44 @@
+<html>
+    <head><title>Web APP-Simple Interest</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <h1>Simple Interest Calculator</h1>
+        <div id="from">
+
+          <p id ="amount"> Amount </p><input type="number" id="principal" oninput="amount()">  <br/>
+        <p id ="rates"> Rate</p> <span id="slider_value" style="color:red;"></span>
+
+        <input width="400" id="rate" type="range" min="1" max="20" name="sld3" value="47" onchange="change(this.value);"></p> <br/>
+          <p id="year">Years</p>
+        <select id="years" name="cars">
+            <option value="1"selected>1</option>
+            <option value="2">2</option>
+            <option value="3" >3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6" >6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9" >9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12" >12</option>
+            <option value="13">13</option>
+          </select>
+          <br/>
+          <p id="interest">
+           Interest :</p> <span id="result">
+
+        <input type="submit" value="Compute" onclick="compute()">
+       </span>
+
+       <p id ="copy"> © Everyone Get Rich</p>
+            
+    </div>
+             
+
+    </body>
+</html>
